@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+  background-color: #333;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    font-family: 'Anton', serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .nav-link {
+    font-family: 'Anton', serif;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    color: orange;
+  }
+
+h1 {
+  font-family:'Anton', serif;
+  text-align: center;
+  margin: 0;
+  color: whitesmoke;
+
+}  
+
+p {
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-photo {
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .header-photo img {
+    max-width: 100px; 
+  }
+
+
+.portfolio-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px; 
+}
+
+.portfolio-cards {
+  width: 100%; 
+  padding: 20px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-card-description {
+  margin-top: 10px;
+  color: whitesmoke;
+  text-align: center ;
+
+}
+
+.btn {
+  background-color: darkgreen;
+  border-color: black;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+}
+
+.btn:hover {
+  background-color: orange;
+  border-color: black;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.container {
+  background-color: #333;
+  width: 100%;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.resume img {
+  max-width: 100px;
+
+}
+
+.resume img:hover {
+  max-width: 100px;
+  opacity: 0.5;
+}
+
+li {
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.aside img {
+  max-width: 300px;
+}
