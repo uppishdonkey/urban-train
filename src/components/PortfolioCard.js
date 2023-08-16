@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PortfolioCard = ({ title, description, imageUrl, projectLink, githubLink }) => {
+const PortfolioCard = ({ title, description, projectLink, githubLink }) => {
   return (
     <div className="portfolio-cards">
       {/* <img src={imageUrl} className="card-img-top" alt={title} /> */}

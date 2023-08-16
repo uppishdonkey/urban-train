@@ -14,7 +14,7 @@ const Footer = () => {
         ><FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/jake-barz-31a24b282/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary btn-social-icon"

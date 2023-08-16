@@ -5,13 +5,13 @@ import Footer from '../components/Footer'; // Adjust the path based on your file
 const Resume = () => {
   const downloadResume = () => {
     // Define the URL to your resume PDF
-    const resumeUrl = '/Resume.pdf'; // Replace with the actual URL
+    const resumeUrl = 'https://docs.google.com/document/d/1I1J-WAj0K_KDeIhwdAws0cEK2TBcfO5I/edit?usp=sharing&ouid=101851951958766230168&rtpof=true&sd=true'; // Replace with the actual URL
     
     // Trigger the download
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.target = 'resume link (google drive)'; // Open in a new tab
-    link.download = '/Resume.pdf'; // Specify the filename for download
+    link.target = 'https://docs.google.com/document/d/1I1J-WAj0K_KDeIhwdAws0cEK2TBcfO5I/edit?usp=sharing&ouid=101851951958766230168&rtpof=true&sd=true'; // Open in a new tab
+    link.download = '/resume.pdf'; // Specify the filename for download
     link.click();
   };
 
@@ -38,8 +38,8 @@ const Resume = () => {
       </h3>
       </div>
       <div className="resume">
-        <a href="resume link (google drive)" target="_blank" rel="noreferrer">
-        <img src="/resume.png" alt="resume" />
+        <a href="https://docs.google.com/document/d/1I1J-WAj0K_KDeIhwdAws0cEK2TBcfO5I/edit?usp=sharing&ouid=101851951958766230168&rtpof=true&sd=true" target="_blank" rel="noreferrer">
+        <img src="/resume.pdf" alt="resume" />
         </a>
       </div>
       <div className="row">
