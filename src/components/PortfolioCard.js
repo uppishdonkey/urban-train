@@ -12,7 +12,7 @@ const PortfolioCard = ({ title, description, imageUrl, projectLink, githubLink }
           View Project
         </a>
         <a href={githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-            View Reopository
+            View Repository
         </a>
         </div>
       </div>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
 body {
-  background-color: #333;
+  background-color: darkslategray;
 }
 
 .navbar-nav {
@@ -12,7 +12,7 @@ body {
   .navbar-brand {
     font-family: 'Anton', serif;
     font-size: 30px;
-    color: white;
+    color: whitesmoke;
     margin-left: 20px;
     text-align: center;
   }
@@ -20,13 +20,13 @@ body {
   .nav-link {
     font-family: 'Anton', serif;
     font-size: 20px;
-    color: white;
+    color: whitesmoke;
     margin-right: 20px;
     text-align: center;
   }
 
   .nav-link:hover {
-    color: orange;
+    color: goldenrod;
   }
 
 h1 {

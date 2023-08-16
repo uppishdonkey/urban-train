@@ -10,7 +10,7 @@ const Resume = () => {
     // Trigger the download
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.target = 'https://drive.google.com/file/d/1j__0panCJrspkRQcSfb3cLAFXo-icvhd/view?usp=sharing'; // Open in a new tab
+    link.target = 'resume link (google drive)'; // Open in a new tab
     link.download = '/Resume.pdf'; // Specify the filename for download
     link.click();
   };
@@ -34,12 +34,11 @@ const Resume = () => {
           <li>MongoDB</li>
           <li>Git</li>
           <li>Bootstrap</li>
-          <li>Bulma</li>
         </ul>
       </h3>
       </div>
       <div className="resume">
-        <a href="https://drive.google.com/file/d/1j__0panCJrspkRQcSfb3cLAFXo-icvhd/view?usp=sharing" target="_blank" rel="noreferrer">
+        <a href="resume link (google drive)" target="_blank" rel="noreferrer">
         <img src="/resume.png" alt="resume" />
         </a>
       </div>

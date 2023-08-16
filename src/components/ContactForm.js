@@ -32,7 +32,6 @@ const ContactForm = () => {
       setEmailError('');
     }
 
-    // Save the form data to local storage or perform any other action
     console.log(formData);
   };
 
